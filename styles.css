@@ -8,9 +8,11 @@
 body, html {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background: #FFFFFF;
+  background: #1E3A8A;
   color: #1E293B;
   line-height: 1.4;
 }
@@ -58,7 +60,7 @@ body, html {
 /* Main container styles - Static dark blue background */
 .container {
   width: 100%;
-  min-height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +69,7 @@ body, html {
   /* Static complementary dark blue background - no animation */
   background: #1E3A8A;
   container-type: inline-size;
+  box-sizing: border-box;
 }
 
 .content-box {
